@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    internal class Cities
+    internal class City
     {
         public int ID { get; set; }
         public int Count { get; set; }

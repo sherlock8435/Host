@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class Admin
+    public class admin
     {
             public string AdminName { get; set; }
             public string Fname { get; set; }
             public string Lname { get; set; }
             public string PhoneNumber { get; set; }
             public string ID { get; set; }
-            public string City { get; set; }
+            public City City { get; set; }
             public string birthday { get; set; }
             public string Gender { get; set; }        
     }
